@@ -1,0 +1,15 @@
+{
+  "name": "ipfs-tools",
+  "version": "0.1.0",
+  "author": "pinkiebell",
+  "license": "MPL-2.0",
+  "type": "module",
+  "bin": {
+    "ipfs-publish": "bin/publish.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkiebell/ipfs-tools"
+  }
+}

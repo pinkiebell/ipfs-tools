@@ -48,6 +48,7 @@ async function publishDirectory (dir) {
   for (const obj of ret) {
     if (obj.Name === '_') {
       console.info(`root cid: ${obj.Hash}`);
+      console.info(`Preview: https://${obj.Hash}.ipfs.infura-ipfs.io/`);
       console.info(`Preview: https://${obj.Hash}.cf-ipfs.com/`);
       console.info(`Example dns entry: _dnslink.example.tld. TXT "dnslink=/ipfs/${obj.Hash}"`);
       break;
